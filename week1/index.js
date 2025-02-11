@@ -60,8 +60,14 @@ let discount : 0.9;
 // 4.3. Alex 望向天空，看到天上有 5 朵白雲和 1 顆太陽
 
 //題目五之4-1.的回答
+let lampRed = true;
+let AlexWaitting = true;
+let WaittingSeconds = 28;
 //題目五之4-2.的回答
+let motocycleWaittingQuantity = 8;
 //題目五之4-3.的回答
+let cloudQuantity = 5;
+const sunQuantity = 1;
 
 
 // ### 題目六：情境題：簡單變數計算
@@ -77,6 +83,7 @@ let myWater = 2000; // 水壺容量
 myWater -= 500; // 早上喝了 500cc
 
 console.log(`Alex 的水壺還有 ${myWater}cc 的水`);
+
 
 // ### 題目七：情境題：變數計算
 // 情境：Anna 每週都會到單次計費型的健身房運動，週日運動結束後，想知道自己本週的消費金額，但結帳系統出了點問題，Anna 決定自己用 JS 來計算。
