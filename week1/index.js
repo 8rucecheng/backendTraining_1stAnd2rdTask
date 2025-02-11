@@ -95,12 +95,19 @@ console.log(`Alex 的水壺還有 ${myWater}cc 的水`);
 // 她本週用了器械 3 小時。
 // 她本週參加了 2 堂團體課程。
 
+//題目七的回答
 let totalBill = 0;
 const machineUsePrice = 50;
-
+const groupCoursePrice = 150;
+let machineUseHours = 3;
+let groupCourseQuantity = 2;
+let machineUsePriceTotal = machineUsePrice * machineUseHours;
+let groupClassesTotal = groupCoursePrice * groupCourseQuantity;
+let total = machineUsePriceTotal + groupClassesTotal;
 console.log(
   `Anna 本週器械使用費共 ${machineUsePriceTotal} 元，團體課費用共 ${groupClassesTotal} 元，一共消費金額是 ${total}元`
 );
+
 
 // ### 題目八：變數重新賦予值
 // 情境：請依照以下程式碼告知答案是多少，並在下方用註解方式寫上這五行程式碼做了什麼事
