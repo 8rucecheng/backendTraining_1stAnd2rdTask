@@ -79,9 +79,12 @@ const sunQuantity = 1;
 // 那麼他的水壺還剩下多少 cc 的水？
 // 以下的 Code 寫到一半，再請幫幫 Alex
 
+//題目六的回答
 let myWater = 2000; // 水壺容量
 myWater -= 500; // 早上喝了 500cc
-
+myWater -= 800; // 中午喝了 800cc
+myWater += 1000; // 去健身房加水 1000cc
+myWater -= 700; // 健身房喝了 700cc
 console.log(`Alex 的水壺還有 ${myWater}cc 的水`);
 
 
