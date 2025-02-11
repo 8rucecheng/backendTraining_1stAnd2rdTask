@@ -15,6 +15,7 @@ const isRunningOnTreadmill = true
 //題目一之4.的回答
 console.log(alexAge, alexMembershipID, isRunningOnTreadmill)
 
+
 // ### 題目二：變數命名練習
 // - 瑜伽團課 - 300 元
 // - 重訓團課 - 500 元
@@ -28,6 +29,7 @@ const weightTrainingGroupClass = 500;
 const weightTrainingPersonalClass = 1500;
 const AlexSportBudgetThisMonth = 3000;
 
+
 // ### 題目三：變數計算
 // 呈上題，Alex 想要規劃好自己的運動課程，需符合以下三個條件，請將花費總數計算在 AlexBudget 上，一起幫幫他吧！
 // 條件一：一定至少要買 1 堂重訓團課和瑜伽團課
@@ -37,6 +39,7 @@ const AlexSportBudgetThisMonth = 3000;
 //題目三的回答
 let AlexBudget = AlexSportBudgetThisMonth - weightTrainingGroupClass - yogaGroupClass*3 - weightTrainingPersonalClass;
 console.log(`Alex 買完課程了，他一共剩下 ${AlexBudget} 元`);
+
 
 // ### 題目四：線稿圖截圖，看圖宣告變數
 // 請參考資料夾內 q4.webp 圖片
@@ -49,13 +52,16 @@ let courseMinute : 50;
 let courseprice : 180;
 let discount : 0.9;
 
+
 // ### 題目五：布林值與變數定義，看是否有用對 const, let
 // 情境：Alex 在往健身房的路上，望向城市的風景，請描述她看到的一切，並宣告變數與賦予值
 // 4-1. Alex 在等紅綠燈，他抬頭看一下現在是紅燈，還有 28 秒綠燈（最多 3 個宣告）
 // 4-2. 目前一起等待的機車有 8 台
 // 4.3. Alex 望向天空，看到天上有 5 朵白雲和 1 顆太陽
 
-//題目五的回答
+//題目五之4-1.的回答
+//題目五之4-2.的回答
+//題目五之4-3.的回答
 
 
 // ### 題目六：情境題：簡單變數計算
