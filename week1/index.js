@@ -37,7 +37,7 @@ const AlexSportBudgetThisMonth = 3000;
 // 條件三：一定要花到 2400 以上，並購買 5 堂課程
 
 //題目三的回答
-let AlexBudget = AlexSportBudgetThisMonth - weightTrainingGroupClass - yogaGroupClass*3 - weightTrainingPersonalClass;
+let AlexBudget = AlexSportBudgetThisMonth - ( weightTrainingGroupClass + yogaGroupClass*3 + weightTrainingPersonalClass );
 console.log(`Alex 買完課程了，他一共剩下 ${AlexBudget} 元`);
 
 
