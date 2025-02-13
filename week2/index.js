@@ -20,20 +20,20 @@ console.log(f == e); //false
 // 請回答每個 console.log 的值為？
 let g = 8;
 let h = '8';
-console.log(g * h == 88);
-console.log(g * h == 64);
-console.log(g * h === 64);
+console.log(g * h == 88); //false
+console.log(g * h == 64); //true
+console.log(g * h === 64); //true
 
 let i = '9';
 let j = '9';
-console.log(i + j == 99);
-console.log(i + j === '99');
-console.log(i + j === 99);
+console.log(i + j == 99); //true
+console.log(i + j === '99'); //true
+console.log(i + j === 99); //false
 
 var k = 3;
 var l = '8';
 // 請文字解釋為什麼
-console.log(k * l > 21);
+console.log(k * l > 21); //系統自動將「l」轉型別為「數字型別」，再進行計算，計算結果為24，24>21故結果為true
 
 // ### 題目三：邏輯運算子 + if, else
 // 情境：健身房週年慶，買課程送贈品
