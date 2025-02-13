@@ -202,8 +202,10 @@ activities.calories = {
 let calorieBurn = 0;
 
 // 練習：計算小明今日消耗的卡路里
-
+//題目九的回答
+calorieBurn = activities.calories.bike * 20 + activities.calories.run * 30 + activities.calories.yoga * 40
 console.log(`小明今日一共消耗約 ${calorieBurn} 卡路里。`);
+
 
 // ### 10. 運動量是否達標！
 // 情境：小明記錄了一週內每一天的運動情況，包含運動時長（分鐘）和平均心率（次數）。
