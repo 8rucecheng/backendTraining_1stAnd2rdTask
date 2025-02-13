@@ -121,10 +121,32 @@ if(playerA === '剪刀' && playerB === '剪刀' || playerA === '石頭' && playe
 - 背景介紹：李教練是一位瑜伽大師，擁有 10 年教學經驗，擅長幫助學員雕塑完美體態，適合希望改善姿態與柔軟度的學員。
 - 是否接收新學員：否
 */
-
+//題目六的回答
 const gymCoach = {}; // 練習：使用物件變數定義兩位教練的資訊
-
+gymCoach.coachWang = {
+  skill : "力量訓練、減重課程", 
+  personalCousePrice : 2000, 
+  personalCouseDuration : 60, 
+  personalCouseAvailable : true, 
+  groupCousePrice : 1500, 
+  groupCouseDuration : 90, 
+  groupCouseAvailable : false, 
+  background : "擁有 5 年教學經驗，專精於提升學員的肌力與減脂，適合希望快速達成體能目標的學員。", 
+  catchNewMember : true
+};
+gymCoach.coachLee = {
+  skill : "瑜伽、體態雕塑", 
+  personalCousePrice : 1800, 
+  personalCouseDuration : 50, 
+  personalCouseAvailable : false, 
+  groupCousePrice : 1200, 
+  groupCouseDuration : 75, 
+  groupCouseAvailable : true, 
+  background : "是一位瑜伽大師，擁有 10 年教學經驗，擅長幫助學員雕塑完美體態，適合希望改善姿態與柔軟度的學員。", 
+  catchNewMember : false
+};
 console.log(gymCoach);
+
 
 // ### 題目七：
 // 主管要求健身中心的兩位教練業績都需達到 50,000元
