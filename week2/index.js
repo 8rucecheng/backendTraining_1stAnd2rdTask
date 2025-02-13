@@ -165,20 +165,18 @@ let performanceData = {
     },
   ],
 };
-
+//題目七的回答
 // 練習：第一位教練（可將下方程式碼註解移除，完成答題）
-
-// if (/* 判斷邏輯，使其為 true */) {
-//   // 請填寫第一位教練業績增長程式碼，使用 +=
-// }
+if(performanceData.coaches[0].performance < 50000){
+  performanceData.coaches[0].performance += 10000
+}
 
 // 練習：第二位教練（可將下方程式碼註解移除，完成答題）
-
-// if (/* 判斷邏輯，使其為 true */) {
-//   // 請填寫第二位教練業績增長程式碼，使用 +=
-// }
-
+if(performanceData.coaches[1].performance < 50000){
+  performanceData.coaches[1].performance += 20000
+}
 console.log(performanceData);
+
 
 // ### 題目八
 /* 
