@@ -132,7 +132,7 @@ gymCoach.coachWang = {
   groupCouseDuration : 90, 
   groupCouseAvailable : false, 
   background : "擁有 5 年教學經驗，專精於提升學員的肌力與減脂，適合希望快速達成體能目標的學員。", 
-  catchNewMember : true
+  newMemberAvailable : true
 };
 gymCoach.coachLee = {
   skill : "瑜伽、體態雕塑", 
@@ -143,7 +143,7 @@ gymCoach.coachLee = {
   groupCouseDuration : 75, 
   groupCouseAvailable : true, 
   background : "是一位瑜伽大師，擁有 10 年教學經驗，擅長幫助學員雕塑完美體態，適合希望改善姿態與柔軟度的學員。", 
-  catchNewMember : false
+  newMemberAvailable : false
 };
 console.log(gymCoach);
 
@@ -232,12 +232,41 @@ const exerciseRecords = [
 
 // 範例：週一
 if (exerciseRecords[0].duration >= 30 && exerciseRecords[0].heartRate >= 130) {
-  totalDuration += mondayDuration;
+  totalDuration += exerciseRecords[0].duration;
   validDays += 1;
 }
-
+//題目十的回答
 // 練習：週二、週三、週四、週五、週六
-
+//週二
+if (exerciseRecords[1].duration >= 30 && exerciseRecords[1].heartRate >= 130) {
+  totalDuration += exerciseRecords[1].duration;
+  validDays += 1;
+}
+//週三
+if (exerciseRecords[2].duration >= 30 && exerciseRecords[2].heartRate >= 130) {
+  totalDuration += exerciseRecords[2].duration;
+  validDays += 1;
+}
+//週四
+exerciseRecords.push({
+  day : 'Thursday', 
+  duration : 0, 
+  heartRate : 0
+});
+if (exerciseRecords[5].duration >= 30 && exerciseRecords[5].heartRate >= 130) {
+  totalDuration += exerciseRecords[5].duration;
+  validDays += 1;
+}
+//週五
+if (exerciseRecords[3].duration >= 30 && exerciseRecords[3].heartRate >= 130) {
+  totalDuration += exerciseRecords[3].duration;
+  validDays += 1;
+}
+//週六
+if (exerciseRecords[4].duration >= 30 && exerciseRecords[4].heartRate >= 130) {
+  totalDuration += exerciseRecords[4].duration;
+  validDays += 1;
+}
 // 練習：判斷是否符合 533 原則
 let isCompliant; // 條件：運動次數至少 5 次 || 運動時間累績達標 >= 150;
 
