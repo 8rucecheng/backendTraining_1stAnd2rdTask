@@ -185,7 +185,14 @@ console.log(performanceData);
   - 瑜伽每分鐘消耗 5 卡
   - 騎腳踏車每分鐘消耗 8 卡
 */
+//題目八的回答
 const activities = {}; // 練習：使用 `物件包含物件` 的格式定義運動類型與每分鐘消耗卡路里
+activities.calories = {
+  run : 10, 
+  yoga : 5, 
+  bike : 8
+};
+
 
 // ## 題目九
 // 情境：算小明今天的卡路里消耗
