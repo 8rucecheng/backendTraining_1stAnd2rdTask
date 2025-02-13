@@ -16,6 +16,7 @@ console.log(f >= e); //true
 console.log(f != e); //true
 console.log(f == e); //false
 
+
 // ### 題目二：比較運算子 + 強制轉型
 // 請回答每個 console.log 的值為？
 let g = 8;
@@ -35,6 +36,7 @@ var l = '8';
 // 請文字解釋為什麼
 console.log(k * l > 21); //系統自動將「l」轉型別為「數字型別」，再進行計算，計算結果為24，24>21故結果為true
 
+
 // ### 題目三：邏輯運算子 + if, else
 // 情境：健身房週年慶，買課程送贈品
 // 健身房準備了 280 個贈品，只要有達以下條件之一，就送會員一個贈品
@@ -48,14 +50,15 @@ let giftPriceRule = 1599; /* 贈品消費門檻 */
 let BobPrice = 1800; /* Bob 消費金額 */
 let BobIsVip = false; /* Bob 是否為 VIP */
 
-// 練習：（可自行將下方程式碼的註解刪除，完成答題）
-// if () {
-//   console.Log（"客戶您好，您有符合贈品資格"）；
-// } else {
-//   console.Log（"客戶您好，您沒有符合贈品資格"）
-// }
-
+//題目三的回答
+if(BobPrice >= giftPriceRule || BobIsVip === true){
+  giftNum--;
+  console.log("客戶您好，您有符合贈品資格");
+}else{
+  console.log("客戶您好，您沒有符合贈品資格");
+}
 console.log(`贈品還剩下${giftNum}個`);
+
 
 // ### 題目四：
 // 健身房的業績獎金計算
