@@ -46,11 +46,11 @@ console.log(`Alex 買完課程了，他一共剩下 ${AlexBudget} 元`);
 // 請依照你看到的內容來嘗試設計變數和值（至少 3 個）
 
 //題目四的回答
-let totalprice : 2520;
-let courseQuantity : 14;
-let courseMinute : 50;
-let courseprice : 180;
-let discount : 0.9;
+let totalprice = 2520;
+let courseQuantity = 14;
+let courseMinute = 50;
+let courseprice = 180;
+let discount = 0.9;
 
 
 // ### 題目五：布林值與變數定義，看是否有用對 const, let
@@ -103,9 +103,9 @@ let machineUseHours = 3;
 let groupCourseQuantity = 2;
 let machineUsePriceTotal = machineUsePrice * machineUseHours;
 let groupClassesTotal = groupCoursePrice * groupCourseQuantity;
-let total = machineUsePriceTotal + groupClassesTotal;
+let totalBill = machineUsePriceTotal + groupClassesTotal;
 console.log(
-  `Anna 本週器械使用費共 ${machineUsePriceTotal} 元，團體課費用共 ${groupClassesTotal} 元，一共消費金額是 ${total}元`
+  `Anna 本週器械使用費共 ${machineUsePriceTotal} 元，團體課費用共 ${groupClassesTotal} 元，一共消費金額是 ${totalBill}元`
 );
 
 
